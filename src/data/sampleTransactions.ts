@@ -1,4 +1,6 @@
-const sampleTransactions = [
+import type { Transaction } from "../types";
+
+const sampleTransactions: Transaction[] = [
   {
     id: "1",
     type: "income",
